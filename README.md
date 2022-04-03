@@ -23,10 +23,10 @@ Agora vá na pasta MqttClient, execute:
 dotnet run
 ```
 Iniciará nosso primeiro client mqtt.
-Logo em seguida irá perguntar qual o "Login client", vamos inserir um nickname, por exemplo: 'leonardo'.
+Logo em seguida irá perguntar qual o `Login client`, vamos inserir um nickname, por exemplo: `leonardo`.
 Agora vamos digitar para quem desejamos enviar mensagens, importante entender que nesse momento
-estamos inserindo o nome que será usado como "Login client" do próximo client mqtt, estamos digitando
-o tópico de destino aqui, digite por exemplo: 'maria'. 
+estamos inserindo o nome que será usado como `Login client` do próximo client mqtt, estamos digitando
+o tópico de destino aqui, digite por exemplo: `maria`. 
 Pronto, nosso primeiro client está pronto para funcionamento. 
 
 Agora novamente na pasta MqttClient, execute: 
@@ -34,7 +34,7 @@ Agora novamente na pasta MqttClient, execute:
 dotnet run
 ```
 E siga as mesmas instruções do passo anterior feito no primeiro client, porém aqui na pergunta 
-"Login client" digitamos 'maria' e para onde enviaremos as mensagens, digitamos 'leonardo', 
+`Login client` digitamos `maria` e para onde enviaremos as mensagens, digitamos `leonardo`, 
 que será o tópico de destino deste segundo client.
 
 Com o broker executando e os 2 clients, agora basta trocar mensagens entre si. 
